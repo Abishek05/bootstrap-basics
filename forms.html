@@ -1,0 +1,150 @@
+<!-- Bootstrap 4 starter template -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Forms</title>
+  </head>
+  <body>
+  <div class="container">
+      <!-- Form -->
+  <form>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input class="form-control" type="text" id="name" placeholder="Enter name">
+    </div>
+    <div class="form-group">
+      <label for="name">Email</label>
+      <input class="form-control form-control-lg" type="text" id="email" placeholder="Enter email">
+      <small class="form-text text-muted">Enter your email address</small>
+    </div>
+    <div class="form-group">
+      <label for="name">Company</label>
+      <input class="form-control form-control-sm" type="text" id="Company" placeholder="Enter Company">
+    </div>
+    <div class="form-group">
+      <label for="name">Password</label>
+      <input class="form-control" type="text" id="Password" placeholder="Enter Password" readonly>
+    </div>
+  </form>
+    
+    <!-- select -->
+    <div class="form-group">
+      <label for="gender">Gender</label>
+      <select class="form-control" id="gender">
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+    </div>
+
+    <!-- Text Area -->
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea class="form-control" id="message"  rows="3"></textarea>
+    </div>
+
+    <!-- File Input -->
+    <div class="form-group">
+      <label for="file">File</label>
+      <input class="form-control-file" type="file" id="file">
+      <small class="form-text text-muted" id="fileHelp">Max 3mb size</small>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- Custom File Input -->
+    <div class="custom-file">
+      <input class="custom-file-input" type="file" id="myfile">
+      <label class="custom-file-label" for="myfile">Choose file</label>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- Range -->
+    <div class="form-group">
+      <label for="membership">Membership Level</label>
+      <input class="custom-range" min="1" max="5" step="1" value="1" type="range">
+    </div>
+
+    <button class="btn btn-primary btn-block" type="submit">Submit</button>
+
+    <br>
+    <br>
+
+    <!-- Inline form -->
+    <form class="form-inline">
+      <input class="form-control mr-2" type="text" id="username" placeholder="Enter Username">
+      <input class="form-control mr-2" type="text" id="password" placeholder="Password">
+      <div class="form-check">
+        <label class="form-check-label mr-2">
+          <input class="form-check-input" type="checkbox">Remember me
+        </label>
+      </div>
+
+      <button class="btn btn-success" type="submit">Submit</button>
+    </form>
+
+    <br>
+    <br>
+
+    <!-- Form Row -->
+    <form>
+      <div class="form-row">
+        <div class="col">
+          <input class="form-control" type="text" placeholder="First Name">
+        </div>
+        <div class="col">
+          <input class="form-control" type="text" placeholder="Last Name">
+        </div>
+      </div>
+    </form>
+
+    <br>
+    <br>
+
+    <!-- Validation -->
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input class="form-control is-valid" type="text" id="username">
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input class="form-control is-invalid" type="text" id="password">
+      <div class="invalid-feedback">
+        Password not strong enough
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="password2">Confirm Password</label>
+      <input class="form-control is-invalid" type="text" id="password2">
+      <div class="invalid-feedback">
+        Password does not match
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+
+  </div>
+  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
